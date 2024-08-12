@@ -55,7 +55,7 @@ img {
   width: 1440px;
   height: 496px;
   padding-top: 36px;
-  padding-left: 156px;
+  padding-left: 80px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
@@ -82,7 +82,7 @@ img {
 }
 
 .timer-input:active {
-  border-color: #4E75FF;
+  border-color: #495a98;
 }
 
 .timer-btn {
@@ -100,12 +100,12 @@ img {
 }
 
 .timer-btn.enabled {
-  background: #4E75FF;
+  background: #7896ff;
   color: #FFF;
 }
 
 .timer-btn.enabled:hover {
-  background: #6C8CFF;
+  background: #616fa0;
 }
 
 
@@ -139,7 +139,7 @@ img {
 .form {
   display: flex;
   padding-top: 36px;
-  padding-left: 156px;
+  padding-left: 80px;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -160,7 +160,7 @@ img {
 }
 
 .form-input:active {
-  border: 1px solid #4E75FF;
+  border: 1px solid #495a98;
 }
 
 .form-input {
@@ -194,7 +194,7 @@ img {
 
 }
 
-.legend-container {
+.wrap-container {
   padding-left: 24px;
   padding-right: 48px;
   display: inline-flex;
@@ -202,9 +202,9 @@ img {
   gap: 48px;
 }
 
-.legend-label {}
+.wrap-label {}
 
-.legend-input {}
+.wrap-input {}
 
 .btn {
   display: flex;
@@ -215,7 +215,7 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 8px;
-  background: #4E75FF;
+  background: #6788ff;
   color: #FFF;
   font-weight: 500;
   letter-spacing: 0.64px;
@@ -223,5 +223,5 @@ img {
 }
 
 .btn:hover {
-  background: #6C8CFF;
+  background: #415dbf;
 }
